@@ -1,6 +1,8 @@
 ## Simple Badge Validator and Formater
 
 ### About
+For starters, the project is unit tested and continuously integrated, check the github actions workflows!
+
 This CLI program either formats or validate the given file:
 
 #### Validation:
