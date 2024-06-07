@@ -78,7 +78,6 @@ program
   .option('--check', 'Check if the image is already circular')
   .action(async (filepath, options) => {
     try {
-      // Ensure the file exists
       if (!fs.existsSync(filepath)) {
         throw new Error('File does not exist.');
       }
